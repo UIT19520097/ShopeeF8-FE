@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/font/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet ">               
+                    <ul class="header__navbar-list">
+                        <!-- HeaderQRcode -->
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">Vào cửa hàng trên ứng dụng F8-Shop
+                            <div class="header__qr">
+                                <img src="./assets/image/QR.png" class="header__qr-img" alt="QR code">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link">
+                                        <img class="header__qr-download-img" src="./assets/image/shopee.png" alt="">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img class="header__qr-download-img" src="./assets/image/ggplay.png" alt="">
+                                    </a>
+                                    <a href="" class="header__qr-link">
+                                        <img class="header__qr-download-img" src="./assets/image/appgalery.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="header__navbar-item no-hover">
+                            <span class="header__navbar-title--no-pointer">
+                                Kết nối
+                            </span> 
+                            <a href="" class="header__navbar-icon-link">
+                                 <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                 <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <ul class="header__navbar-list">
+                        
+                        <!-- Thông báo -->
+                        <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-bell"></i>
+                                Thông Báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/image/my pham.jfif" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <div class="header__notify-name">Mỹ phẩm chính hãng</div>
+                                                <div class="header__notify-desc">Mỹ phẩm chính hãng nhà làm ngon như nhà làm</div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/image/my pham.jfif" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <div class="header__notify-name">Mỹ phẩm chính hãng</div>
+                                                <div class="header__notify-desc">Mỹ phẩm chính hãng nhà làm ngon như nhà làm</div>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/image/my pham.jfif" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <div class="header__notify-name">Mỹ phẩm chính hãng</div>
+                                                <div class="header__notify-desc">Mỹ phẩm chính hãng nhà làm ngon như nhà làm</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">
+                                            Xem tất cả
+                                    </a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="header__navbar-icon far fa-question-circle"></i>
+                                Trợ giúp</a>
+                        </li>
+                        <!-- <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate">Đăng Kí</li>
+                        <li class="header__navbar-item header__navbar-item--bold">Đăng Nhập</li> -->
+                        <li class="header__navbar-item header__navbar-user">
+                            <img src="./assets/image/60bf4aaa5604846f58767df731cf0f45.jpg" class="header__navbar-user-img"></img>
+                            <div class="header__navbar-user-name">Hà Minh Hùng</div>
+                            
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Tài Khoản của tôi</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Địa chỉ</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Đơn mua</a>
+                                </li>
+                                <li class="header__navbar-user-item-seperate header__navbar-user-item">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+                    <input type="checkbox" id="mobile-search-checkbox" class="header__search-checkbox" hidden>
+                    <a href="" class="header__logo-link hide-on-tablet">
+                        <div class="header__logo">
+                            <div class="header__logo-mini">
+                                <svg enable-background="new 0 0 48 48" viewBox="0 0 48 48" x="0" y="0" class="header__logo-mini-img"><path d="M44.4,11.5C44.4,11.5,44.4,11.5,44.4,11.5l-9.9,0C34.3,5.1,29.7,0,24,0S13.7,5.1,13.5,11.5H3.6v0c-0.5,0-0.9,0.4-0.9,0.9c0,0,0,0,0,0.1h0l1.4,30.9c0,0.1,0,0.2,0,0.3c0,0,0,0,0,0.1l0,0.1l0,0c0.2,2.2,1.8,3.9,3.9,4l0,0h31.4c0,0,0,0,0,0c0,0,0,0,0,0h0.1l0,0c2.2-0.1,3.9-1.8,4.1-4l0,0l0,0c0,0,0,0,0-0.1c0-0.1,0-0.1,0-0.2l1.5-31h0c0,0,0,0,0,0C45.3,11.9,44.9,11.5,44.4,11.5z M24,2.8c4.1,0,7.5,3.9,7.6,8.7H16.4C16.5,6.7,19.9,2.8,24,2.8z M31.9,35.8c-0.3,2.3-1.7,4.2-3.9,5.1c-1.2,0.5-2.8,0.8-4.1,0.7c-2-0.1-3.9-0.6-5.6-1.4c-0.6-0.3-1.6-1-2.3-1.5c-0.2-0.1-0.2-0.3-0.1-0.5c0.2-0.2,0.8-1.2,0.9-1.3c0.1-0.2,0.4-0.2,0.6-0.1c0,0,0.2,0.2,0.3,0.2c1.7,1.3,3.8,2.3,6.2,2.4c3,0,5.2-1.4,5.6-3.5c0.4-2.3-1.4-4.3-4.9-5.4c-1.1-0.3-3.9-1.5-4.5-1.8c-2.5-1.4-3.6-3.3-3.4-5.6c0.2-3.2,3.2-5.6,7-5.6c1.8,0,3.5,0.4,5,1c0.6,0.2,1.6,0.8,2,1.1c0.3,0.2,0.2,0.4,0.1,0.6c-0.2,0.2-0.6,0.9-0.8,1.2c-0.1,0.2-0.3,0.2-0.5,0.1c-1.9-1.3-3.9-1.7-5.7-1.8c-2.6,0.1-4.6,1.6-4.7,3.7c0,1.9,1.4,3.3,4.5,4.3C29.9,29.6,32.3,32,31.9,35.8z"></path></svg>
+                            </div>
+                            <div class="header__logo-fullname">
+                                <svg viewBox="0 0 220 44" class="header__logo-fullname-img"><g fill="#fff" fill-rule="evenodd" transform="translate(0 -.098)"><path d="M195.78 30.899a10.49 10.49 0 0 1-6.81 2.484c-5.732 0-10.378-4.53-10.378-10.12 0-5.59 4.646-10.12 10.378-10.12 2.606 0 4.988.937 6.81 2.484.023-1.13.882-1.942 1.938-1.942 1.07 0 1.937.834 1.937 1.989v15.73c0 1.154-.868 1.98-1.937 1.98-1.07 0-1.938-.826-1.938-1.98zm-.062-7.643c0-3.588-3.024-6.497-6.755-6.497-3.73 0-6.754 2.91-6.754 6.497 0 3.588 3.024 6.498 6.754 6.498 3.73 0 6.755-2.91 6.755-6.498zM202.9 25.388V3.558c0-1.07.855-1.938 1.911-1.938s1.912.867 1.912 1.938v22.069c0 .043-.002.087-.004.13-.018 2.461.369 3.293 2.029 3.768 1.016.291 1.553 1.396 1.266 2.426-.237.854-.77 1.377-1.605 1.377h-.18c-.171 0-.347-.024-.52-.073-2.735-.783-4.904-2.78-4.81-7.867zM212.266 25.535V3.558c0-1.07.856-1.938 1.912-1.938s1.912.867 1.912 1.938V25.825c0 .082-.005.163-.015.242-.06 2.212.146 2.858 2.325 3.31 1.034.215 1.632 1.26 1.42 2.309-.186.916-.914 1.527-1.803 1.527-.127 0-.256-.013-.386-.04-2.882-.599-5.553-2.131-5.365-7.638zM97.886 24.307c.095.561.266 1.256.563 2.09 1.317 3.309 5.375 3.3 5.986 3.309 1.753.025 3.396-.331 5.011-1.223.906-.5 1.985-.412 2.556.405.572.818.395 2.028-.723 2.71-2.208 1.348-4.574 1.758-7.01 1.708-3.798-.078-7.4-1.591-9.01-5.204-.733-1.644-1.158-3.561-1.027-5.376.058-2.086.844-3.867 1.047-4.334.928-2.127 2.557-3.814 4.725-4.702 2.646-1.082 6.008-.916 8.53.43 2.936 1.566 4.571 5.136 4.41 8.384-.049.975-.799 1.803-1.817 1.803zm.412-3.333h10.906c-.86-4.592-5.845-4.37-5.845-4.37-2.52.098-4.207 1.555-5.061 4.37zM119.618 24.354c.095.561.266 1.257.563 2.09 1.318 3.31 5.376 3.3 5.986 3.31 1.753.024 3.396-.332 5.012-1.223.905-.5 1.984-.413 2.556.405.571.817.394 2.027-.723 2.71-2.209 1.347-4.574 1.758-7.011 1.707-3.797-.077-7.4-1.591-9.01-5.204-.732-1.644-1.158-3.56-1.026-5.376.058-2.085.843-3.867 1.047-4.333.928-2.127 2.557-3.815 4.725-4.702 2.645-1.083 6.007-.916 8.53.43 2.936 1.565 4.57 5.136 4.409 8.383-.049.976-.798 1.803-1.816 1.803zm.412-3.333h10.907c-.86-4.592-5.846-4.37-5.846-4.37-2.52.099-4.206 1.555-5.06 4.37zM74.109 30.871v11.367c0 2.34-3.632 2.337-3.632 0V23.806a10.064 10.064 0 0 1 0-1.329v-7.575c0-2.34 3.632-2.337 3.632 0v.51a10.537 10.537 0 0 1 6.768-2.434c5.756 0 10.422 4.55 10.422 10.164 0 5.613-4.666 10.164-10.422 10.164-2.584 0-4.947-.917-6.768-2.435zm0-7.207c.28 3.356 3.2 5.997 6.762 5.997 3.746 0 6.784-2.922 6.784-6.526 0-3.604-3.038-6.526-6.784-6.526-3.562 0-6.483 2.64-6.762 5.997zM57.09 33.306c-5.757 0-10.423-4.55-10.423-10.164s4.666-10.164 10.422-10.164 10.422 4.55 10.422 10.164c0 5.613-4.666 10.164-10.422 10.164zm-.007-3.645c3.747 0 6.784-2.922 6.784-6.526 0-3.604-3.037-6.526-6.784-6.526s-6.784 2.922-6.784 6.526c0 3.604 3.037 6.526 6.784 6.526zM28.69 15.026V2.111c0-2.337-3.631-2.34-3.631 0v29.471c0 2.337 3.631 2.341 3.631 0v-9.695c.015.364.018-.522.273-1.22.953-3.151 3.823-3.751 5.115-3.77 3.696 0 5.652 1.803 5.868 5.408V31.582c0 2.337 3.627 2.341 3.627 0v-6.126c0-1.753.106-3.676 0-4.789-.584-6.843-9.5-9.68-14.455-5.979a9.572 9.572 0 0 0-.428.338zM4.294 2.62c-2.156 1.909-3.15 5.385-2.369 8.155.678 2.4 2.66 4.27 4.803 5.323 2.222 1.09 4.676 1.673 6.564 2.505 1.32.59 2.456 1.153 3.595 2.305 1.138 1.152 1.62 2.586 1.587 3.65-.033 1.085-.441 2.182-1.023 2.869-1.487 1.755-3.889 2.414-6.106 2.303-1.572-.078-3.29-.422-4.692-1.016-1.42-.601-2.671-1.582-3.921-2.438-.807-.553-1.99-.282-2.526.631-.468.811-.098 1.92.693 2.505 2.376 1.757 4.89 3.1 7.808 3.631 2.918.532 5.463.41 8.09-.741 2.462-1.08 4.468-3.198 5.07-5.862.627-2.775-.09-5.41-1.923-7.58-2.21-2.618-5.47-3.626-8.54-4.733a24.208 24.208 0 0 1-3.295-1.423c-1.908-.973-2.883-2.363-2.75-4.528.158-2.578 2.278-3.913 4.906-4.266 2.628-.353 5.337.53 7.25 1.864 1.833 1.194 3.93-1.64 1.833-3.136C15.15-.207 8.288-.914 4.294 2.621z"></path><path d="M171.002 3.338c-1.545 4.329-5.841 7.27-10.7 7.186-4.8-.084-8.954-3.103-10.394-7.412-.33-.983-1.407-1.519-2.408-1.197a1.865 1.865 0 0 0-1.217 2.364c1.946 5.823 7.526 9.879 13.954 9.991 6.505.114 12.277-3.84 14.365-9.69a1.866 1.866 0 0 0-1.17-2.39c-.993-.342-2.082.171-2.43 1.148z" fill-rule="nonzero"></path><path d="M173.191 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98zM147.807 1.8a1.98 1.98 0 0 1 1.98 1.98v27.546a1.98 1.98 0 1 1-3.96 0V3.78a1.98 1.98 0 0 1 1.98-1.98z"></path><circle cx="173.101" cy="3.691" r="2.07"></circle><circle cx="147.897" cy="3.691" r="2.07"></circle></g></svg>
+                            </div>
+                        </div>
+                    </a>  
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                            
+                            <!-- Search History -->
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                               
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href=""> Kem dưỡng da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href=""> Kem trị mụn</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            <!-- End search History -->
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong shop</span>
+                            <i class="header__search-select-icon fas fa-angle-down"></i>
+                            <ul class="header__search-option">
+                                    <li class="header__search-option-item header__search-option-item--active">
+                                        <span>Trong shop</span>
+                                        <i class="fas fa-check"></i>
+                                    </li>
+                                    <li class="header__search-option-item">
+                                        <span>Ngoài shop</span>
+                                        <i class="fas fa-check"></i>
+                                    </li>
+                            </ul>
+                            
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!-- Cart layout -->
+                    <div class="header__cart">
+                        <div class="header__cart-wrap">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice">
+                                3
+                            </span>
+
+                            <!-- No cart: add class header__cart-list--no-cart -->
+                            <div class="header__cart-list  ">
+                                <img src="./assets/image/no-card.png" class="header__cart-no-cart-img" alt="">
+                                <p class="header__cart-list-no-cart-msg">
+                                    Chưa có sản phẩm
+                                </p>
+                                <!-- Cart-item -->
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                    <ul class="header__cart-list-item">
+                                        <li class="header__cart-item">
+                                            <img src="https://cf.shopee.vn/file/72741deedf79d2325d721aea0e1aceeb_tn" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">    
+                                                    <h5 class="header__cart-item-name">[Mã ELMALL1TR giảm 5% đơn 3TR] Laptop ASUS FX506LH-HN002T GTX1650 i5-10300H 8G 512G 15.6'' W10</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">17.000.000</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">2</span>
+
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại: Vàng
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="https://cf.shopee.vn/file/cd7b94f482ab3e33bbff915f0e6fbb81_tn" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">    
+                                                    <h5 class="header__cart-item-name">[Mã ELSSCP1TR giảm 5% đơn 3TR] Smart Tivi Samsung 43 Inch Full HD UA43T6500AKXXV - Miễn phí lắp đặt</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">9.319.000</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">1</span>
+
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại: Vàng
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="https://cf.shopee.vn/file/9666b7ff81adc2b2e66ecd2b8b67254e_tn" alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">    
+                                                    <h5 class="header__cart-item-name">Vòng tay theo dõi sức khoẻ Mi Band 5 Xiaomi Tiếng Việt Miband 5</h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">549.000</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">2</span>
+
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Phân loại: Vàng
+                                                    </span>
+                                                    <span class="header__cart-item-remove">Xóa</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="" class="header__cart-view-cart btn btn--primary">
+                                        Xem giỏ hàng
+                                    </a>
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <ul class="header__sort-bar">
+                <li class="header__sort-item"><a href="" class="header__sort-link">Liên quan</a></li>
+                <li class="header__sort-item"><a href="" class="header__sort-link">Mới nhất</a></li>
+                <li class="header__sort-item"><a href="" class="header__sort-link">Bán chạy</a></li>
+                <li class="header__sort-item"><a href="" class="header__sort-link">Giá</a></li>
+            </ul>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link ">Trang điểm mắt</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Trang điểm môi</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Trang điểm mặt</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col l-10 m-12 c-12">
+                        <!-- Home-filter -->
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter-btn btn">Phổ biến</button>
+                            <button class="home-filter-btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter-btn btn">Bán chạy</button>
+
+                            <div class="select-input">
+                                <div class="select-input__label">Giá</div>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá thấp đến cao</a> 
+                                    </li>
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá cao đến thấp</a> 
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span>
+                                    /14
+                                </span>
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disabled">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fas fa-angle-right"></i> 
+                                    </a>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Dụng cụ và thiết bị tiện ích</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <!-- Home-product -->
+                        <div class="home-product">
+                            <div class="row sm-gutter">
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div><div class="col l-2-4 m-4 c-6">
+                                    <!-- Product Item -->
+                                    <a href="" class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/3cd613bdf31caeda6053868a687ae728_tn)">
+                                        </div>
+                                        <h4 class="home-product-item__name">Vòng đeo tay thông minh Xiaomi Mi Band 5 BHR4215GL XMSH10HM - Hàng chính hãng</h4>
+                                        <div class="home-product-item__price">
+                                            <span class="home-product-item__price-old">1.200.000đ </span>
+                                            <span class="home-product-item__price-current">500.000đ</span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like home-product-item__like--liked">
+                                                <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                            </span>
+                                            <span class="home-product-item__rating">
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="home-product-item__star--gold fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                            <span class="home--product-item__sold">88 đã bán</span>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Nhật Bản</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fas fa-check"></i>
+                                            <span> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-off-percent">43%</span>
+                                            <span class="home-product-item__sale-off-label">GIẢM</span>
+
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <ul class="pagination home-product-pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="fas fa-angle-left"></i>
+                                </a>
+                            </li>
+                            <li class="pagination-item  pagination-item--active">
+                                <a href="" class="pagination-item__link">
+                                    1
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    2
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    3
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    4
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    5
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    ...
+                                </a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    14
+                                </a>
+                            </li>      
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide footer__content">
+                <div class="grid__row">
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            Chăm sóc khách hàng
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Shopee</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            Giới thiệu
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            Danh mục
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Trang điểm mắt</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Trang điểm môi</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">Trang điểm mặt</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-4 c-6">
+                        <h3 class="footer__heading">
+                            Theo dõi
+                        </h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">
+                                    <i class="footer-item__icon fab fa-facebook"></i>
+                                    Facebook</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-instagram"></i>
+                                    Instagram</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fab fa-linkedin"></i>
+                                    Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-8 c-12">
+                        <h3 class="footer__heading">
+                            Vào cửa hàng trên ứng dụng
+                        </h3>
+                        <div class="footer__download">
+                            <img src="./assets/image/QR.png" alt="Download QR" class="footer__download-qr">
+                            <div class="footer__download-apps">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/image/ggplay.png" alt="Google Play" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/image/shopee.png" alt="AppStore" class="footer__download-app-img">
+                                </a>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer__bottom">
+                 <div class="grid wide">
+                     <div class="footer__copyright">
+                        <ul class="footer__copyright-list">
+                            <li class="footer__copyright-item">
+                                <a href="" class="footer__copyright-link">
+                                    chính sách bảo mật
+                                </a>
+                            </li>
+                            <li class="footer__copyright-item">
+                                <a href="" class="footer__copyright-link">
+                                    Quy chế hoạt động
+                                </a>
+                            </li><li class="footer__copyright-item">
+                                <a href="" class="footer__copyright-link">
+                                    Chính sách vận chuyển
+                                </a>
+                            </li><li class="footer__copyright-item">
+                                <a href="" class="footer__copyright-link">
+                                    chính sách trả hàng và hoàn tiền
+                                </a>
+                            </li>
+                        </ul> 
+                        <img src="./assets/image/dathongbao.png" class="footer__copyright-img" alt="">
+                        <p class="footer__address">Địa chỉ: 55/8/14 Cử Luyện, Phường 5, Tân An, Long An</p>
+                        <p class="footer__seri">Mã số doanh nghiệp 01088836670 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp làn đầu ngày 10/02/2015</p>
+                    </div>
+                    <p class="footer__text">© 2015 - Bản quyền thuộc về Công ty Hùng Hà</p>
+                 </div>
+             </div>
+        </footer>
+    </div>
+
+    <!-- <div class="modal">
+        <div class="modal__overlay">
+
+        </div>
+        <div class="modal__body"> -->
+            <!-- Register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">
+                            Đăng ký
+                        </h3>
+                        <div class="auth-form__switch-btn">
+                            Đăng nhập
+                        </div>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth_form__input" placeholder="Email của bạn">
+
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth_form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth_form__input" placeholder="Nhập lại mật khẩu của bạn">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                            <a href="" class="auth-form__policy-text-link">Điều khoản dịch vụ </a>&
+                            <a href="" class="auth-form__policy-text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn--normal" >TRỞ LẠI</button>
+                        <button class="btn btn--primary vtn">ĐĂNG KÍ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--withicon">
+                        <i class="fab fa-facebook-square auth-form__socials-icon"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với facebook
+                        </span>
+                        
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--withicon">
+                        <i class="fab fa-google auth-form__socials-icon"></i>
+                        
+                        <span class="auth-form__socials-title">
+                            Kết nói với Google
+                        </span>
+                    </a>
+                </div>
+            
+                
+
+                
+            </div> -->
+            <!-- Login form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">
+                            Đăng nhập
+                        </h3>
+                        <div class="auth-form__switch-btn">
+                            Đăng ký
+                        </div>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth_form__input" placeholder="Email của bạn">
+
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth_form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                    </div>
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate">
+
+                            </span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn--normal" >TRỞ LẠI</button>
+                        <button class="btn btn--primary vtn">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--facebook btn btn--size-s btn--withicon">
+                        <i class="fab fa-facebook-square auth-form__socials-icon"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span>
+                        
+                    </a>
+                    <a href="" class="auth-form__socials--google btn btn--size-s btn--withicon">
+                        <i class="fab fa-google auth-form__socials-icon"></i>
+                        
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+ 
+            </div> -->
+<!-- 
+        </div>
+    </div> -->
+</body>
+</html>
